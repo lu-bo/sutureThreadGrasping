@@ -7,6 +7,7 @@ Now_Path = [Path, FolderName, '/'];
 clearvars -except stereoParams; clc; close all;
 
 %% camera calibration from data in folders
+% change the directory ot "vrep_ECM_cali\camera_1_raw\" and "vrep_ECM_cali\camera_2_raw\"
 PATH_left_images  = 'C:\Users\Bo\OneDrive - The Hong Kong Polytechnic University\PhD Studies\Semester 4\3D Reconstruction\2017.03.20\v-repApi\virtual_chess_board_calibration\camera_1_raw\';
 PATH_right_images = 'C:\Users\Bo\OneDrive - The Hong Kong Polytechnic University\PhD Studies\Semester 4\3D Reconstruction\2017.03.20\v-repApi\virtual_chess_board_calibration\camera_2_raw\';
 chess_board_size = 5;
